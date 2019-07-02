@@ -37,28 +37,6 @@ setVersion(project.ext.versionNumber)
 
 dependencies {
     compile gradleApi()
-
-    // We use the latest groovy 2.x version for building this library
-    // compile 'org.codehaus.groovy:groovy-all:2.4.+'
-    compile localGroovy()
-
-    // Use the latest version
-    compile "com.google.guava:guava:+"
-    // Use the latest version
-    compile "org.apache.commons:commons-lang3:+"
-    compile "commons-io:commons-io:2.+"
-
-    compileOnly 'org.slf4j:slf4j-api:1.7.+'
-
-    // latest version
-    testCompile 'junit:junit:4.12'
-
-    // latest version
-    testCompile 'org.mockito:mockito-all:1.10.19'
-
-    // use sl4j logging for tests
-    testCompile 'org.slf4j:slf4j-log4j12:1.7.+'
-
 }
 
 jar {

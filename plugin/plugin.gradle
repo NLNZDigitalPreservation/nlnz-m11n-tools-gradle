@@ -37,8 +37,6 @@ setVersion(project.ext.versionNumber)
 
 dependencies {
     compile project(':gradle-core')
-
-    compile gradleApi()
 }
 
 jar {
